@@ -58,4 +58,14 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Uyg9Activity.class);
         startActivity(i);
     }
+    public void asd(View view)
+    {
+        Intent a = new Intent(MainActivity.this,Gold1.class);
+        startActivity(a);
+    }
+    public void asdf(View view)
+    {
+        Intent j = new Intent(MainActivity.this,Gold2.class);
+        startActivity(j);
+    }
 }
